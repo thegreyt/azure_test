@@ -17,8 +17,12 @@ variables:
 steps:
 
 - powershell: |
+    # Using an input-macro:
+    Write-Host "This works: $(dxfeed)"
+    # Using the mapped env var:
+    Write-Host "This works: $env:DX_NUGET_PUB"    # Recommended
   env:
-    DX_NUGET_PUB: $(mySecret)
+    DX_NUGET_PUB: $(dxfeed)
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
