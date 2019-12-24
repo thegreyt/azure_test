@@ -23,4 +23,4 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'custom'
-    arguments: 'install Newtonsoft.Json -OutputDirectory easyTest'
+    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory easyTest -configfile NuGet.config'
