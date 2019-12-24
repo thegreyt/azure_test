@@ -17,11 +17,6 @@ variables:
 steps:
 
 - powershell: |
-    # Using an input-macro:
-    Write-Host "This works: $(dxfeed)"
-    # Using the mapped env var:
-    Write-Host "This works: $env:DX_NUGET_PUB"    # Recommended
-    Write-Host "##vso[task.setvariable variable=DX_NUGET_PUB;]$(dxfeed)"
   env:
     DX_NUGET_PUB: $(dxfeed)
 - task: NuGetToolInstaller@1
