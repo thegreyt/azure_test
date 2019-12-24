@@ -17,7 +17,7 @@ variables:
 steps:
 
 - powershell: |
-    [Environment]::SetEnvironmentVariable("DX_NUGET_PUB", "$(dxfeed)", "User")
+    Write-Host "##vso[task.setvariable variable=DX_NUGET_PUB;]$(dxfeed)"
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
