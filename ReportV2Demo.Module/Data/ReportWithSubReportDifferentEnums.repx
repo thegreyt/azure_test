@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.2.0.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.2, Version=19.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" Name="Report1" DisplayName="ReportWithSubReportDifferentEnums" Margins="100, 100, 350, 100" PageWidth="850" PageHeight="1100" Version="19.2" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Extensions>
+    <Item1 Ref="2" Key="DataSerializationExtension" Value="XtraReport" />
+    <Item2 Ref="3" Key="DataEditorExtension" Value="XtraReport" />
+    <Item3 Ref="4" Key="ParameterEditorExtension" Value="XtraReport" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="5" ControlType="TopMarginBand" Name="TopMargin" HeightF="350">
+      <Controls>
+        <Item1 Ref="6" ControlType="XRSubreport" Name="subreport1" ReportSourceUrl="DevExpress.Persistent.BaseImpl.ReportDataV2(f9a324cd-b780-4994-b1e5-640f4660b740)" SizeF="633.9999,310.5" LocationFloat="5.999994, 25.99999" />
+      </Controls>
+    </Item1>
+    <Item2 Ref="7" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="8" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="60" />
+    <Item4 Ref="9" ControlType="GroupHeaderBand" Name="GroupHeader1" GroupUnion="WithFirstDetail" HeightF="28">
+      <Controls>
+        <Item1 Ref="10" ControlType="XRTable" Name="table1" SizeF="650,28" LocationFloat="0, 0">
+          <Rows>
+            <Item1 Ref="11" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="12" ControlType="XRTableCell" Name="tableCell1" Weight="0.21784785344050481" Text="First Name" StyleName="DetailCaption1" Borders="None">
+                  <StylePriority Ref="13" UseBorders="false" />
+                </Item1>
+                <Item2 Ref="14" ControlType="XRTableCell" Name="tableCell2" Weight="0.21407353327824519" Text="Last Name" StyleName="DetailCaption1" />
+                <Item3 Ref="15" ControlType="XRTableCell" Name="tableCell3" Weight="0.2518829815204327" Text="Middle Name" StyleName="DetailCaption1" />
+                <Item4 Ref="16" ControlType="XRTableCell" Name="tableCell4" Weight="0.31619558481069709" Text="Title Of Courtesy" StyleName="DetailCaption1" />
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item4>
+    <Item5 Ref="17" ControlType="DetailBand" Name="Detail" HeightF="25">
+      <Controls>
+        <Item1 Ref="18" ControlType="XRTable" Name="table2" SizeF="205.5271,25" LocationFloat="10.00001, 0" OddStyleName="DetailData3_Odd">
+          <Rows>
+            <Item1 Ref="19" ControlType="XRTableRow" Name="tableRow2" Weight="11.5">
+              <Cells>
+                <Item1 Ref="20" ControlType="XRTableCell" Name="tableCell8" Weight="0.31619563176081733" StyleName="DetailData1">
+                  <ExpressionBindings>
+                    <Item1 Ref="21" EventName="BeforePrint" PropertyName="Text" Expression="[TitleOfCourtesy]" />
+                  </ExpressionBindings>
+                </Item1>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item5>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="22" Name="Title" BorderStyle="Inset" Font="Arial, 14.25pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="23" Name="DetailCaption1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="White" BackColor="255,75,75,75" BorderColor="White" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item3 Ref="24" Name="DetailData1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BorderColor="Transparent" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item4 Ref="25" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="26" Name="PageInfo" BorderStyle="Inset" Padding="2,2,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="0" Name="collectionDataSource1" ObjectTypeName="ReportV2Demo.Module.BusinessObjects.Contact" ObjectType="DevExpress.Persistent.Base.ReportsV2.CollectionDataSource,DevExpress.Persistent.Base.v19.2" TopReturnedRecords="0">
+      <Sorting Ref="27" />
+    </Item1>
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

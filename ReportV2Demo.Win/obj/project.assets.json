@@ -1,0 +1,4368 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "DevExpress.Charts/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Charts.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Charts.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Charts.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.CodeParser/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.CodeParser.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.CodeParser.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Data/19.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Data.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Data.v19.2.dll": {}
+        }
+      },
+      "DevExpress.DataAccess/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.2.dll": {}
+        }
+      },
+      "DevExpress.DataAccess.UI/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.Diagram.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win.Diagram": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.2.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.2.UI.dll": {}
+        }
+      },
+      "DevExpress.Diagram.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Diagram.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Diagram.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ConditionalAppearance/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Images/19.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Images.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Images.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Objects/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Objects.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Objects.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ReportsV2/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ReportsV2.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.DataAccess.UI": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.ReportsV2": "[19.2.5]",
+          "DevExpress.ExpressApp.Win": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.Reporting": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Security/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Security.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Security.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Security.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Security": "[19.2.5]",
+          "DevExpress.ExpressApp.Xpo": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Validation/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Validation.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Validation.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Validation.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Validation": "[19.2.5]",
+          "DevExpress.ExpressApp.Win": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.BonusSkins": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Gauges.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraGauges.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraGauges.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Images/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Images.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Images.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Office.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Office.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Office.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Pdf.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Pdf.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Pdf.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Persistent.Base/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Persistent.Base.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Persistent.Base.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Persistent.BaseImpl/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Objects": "[19.2.5]",
+          "DevExpress.ExpressApp.Xpo": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Scheduler.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.dll": {}
+        }
+      },
+      "DevExpress.PivotGrid.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.PivotGrid.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.PivotGrid.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Printing.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Printing.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Printing.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Reporting.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.Gauges.Core": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Export": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraReports.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraReports.v19.2.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Export/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Export.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Export.dll": {}
+        }
+      },
+      "DevExpress.Scheduler.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Sparkline.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Sparkline.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Sparkline.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Utils/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Utils.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Utils.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Utils.UI/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Utils.v19.2.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Utils.v19.2.UI.dll": {}
+        }
+      },
+      "DevExpress.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.RichEdit.Export": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.PivotGrid": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraNavBar.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraWizard.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraNavBar.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraWizard.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.BonusSkins/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.BonusSkins.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.BonusSkins.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Charts/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.Extensions.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.UI.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.Wizard.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.Extensions.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.UI.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.Wizard.dll": {}
+        }
+      },
+      "DevExpress.Win.Diagram/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Diagram.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraDiagram.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraDiagram.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Grid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Navigation/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraBars.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraEditors.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraLayout.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraBars.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraEditors.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraLayout.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.PivotGrid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraPivotGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraPivotGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Printing/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraPrinting.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraPrinting.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Reporting/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.DataAccess.UI": "[19.2.5]",
+          "DevExpress.Gauges.Core": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.Charts": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.PivotGrid": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraReports.v19.2.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraReports.v19.2.Extensions.dll": {}
+        }
+      },
+      "DevExpress.Win.RichEdit/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraRichEdit.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraRichEdit.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.TreeList/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraTreeList.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraTreeList.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.VerticalGrid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraVerticalGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraVerticalGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpo.v19.2.dll": {}
+        }
+      },
+      "ReportV2Demo.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.Data": "19.2.5",
+          "DevExpress.ExpressApp": "19.2.5",
+          "DevExpress.ExpressApp.ConditionalAppearance": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2": "19.2.5",
+          "DevExpress.ExpressApp.Security.Xpo": "19.2.5",
+          "DevExpress.Images": "19.2.5",
+          "DevExpress.Pdf.Core": "19.2.5",
+          "DevExpress.Persistent.BaseImpl": "19.2.5",
+          "DevExpress.Printing.Core": "19.2.5",
+          "DevExpress.Utils": "19.2.5"
+        },
+        "compile": {
+          "bin/placeholder/ReportV2Demo.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportV2Demo.Module.dll": {}
+        }
+      },
+      "ReportV2Demo.Module.Win/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.Charts": "19.2.5",
+          "DevExpress.Charts.Core": "19.2.5",
+          "DevExpress.CodeParser": "19.2.5",
+          "DevExpress.Data": "19.2.5",
+          "DevExpress.DataAccess": "19.2.5",
+          "DevExpress.DataAccess.UI": "19.2.5",
+          "DevExpress.Diagram.Core": "19.2.5",
+          "DevExpress.ExpressApp": "19.2.5",
+          "DevExpress.ExpressApp.Objects": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2.Win": "19.2.5",
+          "DevExpress.ExpressApp.Win": "19.2.5",
+          "DevExpress.ExpressApp.Xpo": "19.2.5",
+          "DevExpress.Gauges.Core": "19.2.5",
+          "DevExpress.Images": "19.2.5",
+          "DevExpress.Office.Core": "19.2.5",
+          "DevExpress.Pdf.Core": "19.2.5",
+          "DevExpress.Persistent.Base": "19.2.5",
+          "DevExpress.Persistent.BaseImpl": "19.2.5",
+          "DevExpress.PivotGrid.Core": "19.2.5",
+          "DevExpress.Printing.Core": "19.2.5",
+          "DevExpress.Reporting.Core": "19.2.5",
+          "DevExpress.RichEdit.Core": "19.2.5",
+          "DevExpress.RichEdit.Export": "19.2.5",
+          "DevExpress.Scheduler.Core": "19.2.5",
+          "DevExpress.Sparkline.Core": "19.2.5",
+          "DevExpress.Utils": "19.2.5",
+          "DevExpress.Utils.UI": "19.2.5",
+          "DevExpress.Win": "19.2.5",
+          "DevExpress.Win.BonusSkins": "19.2.5",
+          "DevExpress.Win.Charts": "19.2.5",
+          "DevExpress.Win.Diagram": "19.2.5",
+          "DevExpress.Win.Grid": "19.2.5",
+          "DevExpress.Win.Navigation": "19.2.5",
+          "DevExpress.Win.PivotGrid": "19.2.5",
+          "DevExpress.Win.Printing": "19.2.5",
+          "DevExpress.Win.Reporting": "19.2.5",
+          "DevExpress.Win.RichEdit": "19.2.5",
+          "DevExpress.Win.TreeList": "19.2.5",
+          "DevExpress.Win.VerticalGrid": "19.2.5",
+          "DevExpress.Xpo": "19.2.5",
+          "ReportV2Demo.Module": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReportV2Demo.Module.Win.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportV2Demo.Module.Win.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win": {
+      "DevExpress.Charts/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Charts.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Charts.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Charts.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.CodeParser/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.CodeParser.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.CodeParser.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Data/19.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Data.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Data.v19.2.dll": {}
+        }
+      },
+      "DevExpress.DataAccess/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.2.dll": {}
+        }
+      },
+      "DevExpress.DataAccess.UI/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.Diagram.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win.Diagram": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.2.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.2.UI.dll": {}
+        }
+      },
+      "DevExpress.Diagram.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Diagram.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Diagram.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ConditionalAppearance/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Images/19.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Images.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Images.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Objects/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Objects.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Objects.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ReportsV2/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ReportsV2.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.DataAccess.UI": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.ReportsV2": "[19.2.5]",
+          "DevExpress.ExpressApp.Win": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.Reporting": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Security/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Security.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Security.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Security.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Security": "[19.2.5]",
+          "DevExpress.ExpressApp.Xpo": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Validation/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Validation.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Validation.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Validation.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Validation": "[19.2.5]",
+          "DevExpress.ExpressApp.Win": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.BonusSkins": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Gauges.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraGauges.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraGauges.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Images/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Images.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Images.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Office.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Office.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Office.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Pdf.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Pdf.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Pdf.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Persistent.Base/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Persistent.Base.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Persistent.Base.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Persistent.BaseImpl/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Objects": "[19.2.5]",
+          "DevExpress.ExpressApp.Xpo": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Scheduler.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.dll": {}
+        }
+      },
+      "DevExpress.PivotGrid.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.PivotGrid.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.PivotGrid.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Printing.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Printing.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Printing.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Reporting.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.Gauges.Core": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Export": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraReports.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraReports.v19.2.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Export/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Export.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Export.dll": {}
+        }
+      },
+      "DevExpress.Scheduler.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Sparkline.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Sparkline.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Sparkline.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Utils/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Utils.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Utils.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Utils.UI/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Utils.v19.2.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Utils.v19.2.UI.dll": {}
+        }
+      },
+      "DevExpress.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.RichEdit.Export": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.PivotGrid": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraNavBar.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraWizard.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraNavBar.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraWizard.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.BonusSkins/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.BonusSkins.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.BonusSkins.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Charts/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.Extensions.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.UI.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.Wizard.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.Extensions.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.UI.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.Wizard.dll": {}
+        }
+      },
+      "DevExpress.Win.Diagram/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Diagram.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraDiagram.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraDiagram.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Grid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Navigation/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraBars.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraEditors.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraLayout.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraBars.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraEditors.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraLayout.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.PivotGrid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraPivotGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraPivotGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Printing/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraPrinting.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraPrinting.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Reporting/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.DataAccess.UI": "[19.2.5]",
+          "DevExpress.Gauges.Core": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.Charts": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.PivotGrid": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraReports.v19.2.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraReports.v19.2.Extensions.dll": {}
+        }
+      },
+      "DevExpress.Win.RichEdit/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraRichEdit.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraRichEdit.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.TreeList/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraTreeList.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraTreeList.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.VerticalGrid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraVerticalGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraVerticalGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpo.v19.2.dll": {}
+        }
+      },
+      "ReportV2Demo.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.Data": "19.2.5",
+          "DevExpress.ExpressApp": "19.2.5",
+          "DevExpress.ExpressApp.ConditionalAppearance": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2": "19.2.5",
+          "DevExpress.ExpressApp.Security.Xpo": "19.2.5",
+          "DevExpress.Images": "19.2.5",
+          "DevExpress.Pdf.Core": "19.2.5",
+          "DevExpress.Persistent.BaseImpl": "19.2.5",
+          "DevExpress.Printing.Core": "19.2.5",
+          "DevExpress.Utils": "19.2.5"
+        },
+        "compile": {
+          "bin/placeholder/ReportV2Demo.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportV2Demo.Module.dll": {}
+        }
+      },
+      "ReportV2Demo.Module.Win/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.Charts": "19.2.5",
+          "DevExpress.Charts.Core": "19.2.5",
+          "DevExpress.CodeParser": "19.2.5",
+          "DevExpress.Data": "19.2.5",
+          "DevExpress.DataAccess": "19.2.5",
+          "DevExpress.DataAccess.UI": "19.2.5",
+          "DevExpress.Diagram.Core": "19.2.5",
+          "DevExpress.ExpressApp": "19.2.5",
+          "DevExpress.ExpressApp.Objects": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2.Win": "19.2.5",
+          "DevExpress.ExpressApp.Win": "19.2.5",
+          "DevExpress.ExpressApp.Xpo": "19.2.5",
+          "DevExpress.Gauges.Core": "19.2.5",
+          "DevExpress.Images": "19.2.5",
+          "DevExpress.Office.Core": "19.2.5",
+          "DevExpress.Pdf.Core": "19.2.5",
+          "DevExpress.Persistent.Base": "19.2.5",
+          "DevExpress.Persistent.BaseImpl": "19.2.5",
+          "DevExpress.PivotGrid.Core": "19.2.5",
+          "DevExpress.Printing.Core": "19.2.5",
+          "DevExpress.Reporting.Core": "19.2.5",
+          "DevExpress.RichEdit.Core": "19.2.5",
+          "DevExpress.RichEdit.Export": "19.2.5",
+          "DevExpress.Scheduler.Core": "19.2.5",
+          "DevExpress.Sparkline.Core": "19.2.5",
+          "DevExpress.Utils": "19.2.5",
+          "DevExpress.Utils.UI": "19.2.5",
+          "DevExpress.Win": "19.2.5",
+          "DevExpress.Win.BonusSkins": "19.2.5",
+          "DevExpress.Win.Charts": "19.2.5",
+          "DevExpress.Win.Diagram": "19.2.5",
+          "DevExpress.Win.Grid": "19.2.5",
+          "DevExpress.Win.Navigation": "19.2.5",
+          "DevExpress.Win.PivotGrid": "19.2.5",
+          "DevExpress.Win.Printing": "19.2.5",
+          "DevExpress.Win.Reporting": "19.2.5",
+          "DevExpress.Win.RichEdit": "19.2.5",
+          "DevExpress.Win.TreeList": "19.2.5",
+          "DevExpress.Win.VerticalGrid": "19.2.5",
+          "DevExpress.Xpo": "19.2.5",
+          "ReportV2Demo.Module": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReportV2Demo.Module.Win.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportV2Demo.Module.Win.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win-x64": {
+      "DevExpress.Charts/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Charts.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Charts.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Charts.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.CodeParser/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.CodeParser.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.CodeParser.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Data/19.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Data.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Data.v19.2.dll": {}
+        }
+      },
+      "DevExpress.DataAccess/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.2.dll": {}
+        }
+      },
+      "DevExpress.DataAccess.UI/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.Diagram.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win.Diagram": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.2.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.2.UI.dll": {}
+        }
+      },
+      "DevExpress.Diagram.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Diagram.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Diagram.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ConditionalAppearance/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Images/19.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Images.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Images.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Objects/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Objects.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Objects.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ReportsV2/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ReportsV2.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.DataAccess.UI": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.ReportsV2": "[19.2.5]",
+          "DevExpress.ExpressApp.Win": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.Reporting": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Security/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Security.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Security.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Security.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Security": "[19.2.5]",
+          "DevExpress.ExpressApp.Xpo": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Validation/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Validation.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Validation.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Validation.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Validation": "[19.2.5]",
+          "DevExpress.ExpressApp.Win": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.BonusSkins": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Gauges.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraGauges.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraGauges.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Images/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Images.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Images.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Office.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Office.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Office.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Pdf.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Pdf.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Pdf.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Persistent.Base/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Persistent.Base.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Persistent.Base.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Persistent.BaseImpl/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Objects": "[19.2.5]",
+          "DevExpress.ExpressApp.Xpo": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Scheduler.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.dll": {}
+        }
+      },
+      "DevExpress.PivotGrid.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.PivotGrid.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.PivotGrid.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Printing.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Printing.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Printing.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Reporting.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.Gauges.Core": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Export": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraReports.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraReports.v19.2.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Export/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Export.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Export.dll": {}
+        }
+      },
+      "DevExpress.Scheduler.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Sparkline.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Sparkline.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Sparkline.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Utils/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Utils.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Utils.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Utils.UI/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Utils.v19.2.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Utils.v19.2.UI.dll": {}
+        }
+      },
+      "DevExpress.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.RichEdit.Export": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.PivotGrid": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraNavBar.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraWizard.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraNavBar.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraWizard.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.BonusSkins/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.BonusSkins.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.BonusSkins.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Charts/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.Extensions.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.UI.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.Wizard.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.Extensions.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.UI.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.Wizard.dll": {}
+        }
+      },
+      "DevExpress.Win.Diagram/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Diagram.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraDiagram.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraDiagram.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Grid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Navigation/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraBars.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraEditors.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraLayout.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraBars.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraEditors.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraLayout.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.PivotGrid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraPivotGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraPivotGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Printing/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraPrinting.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraPrinting.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Reporting/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.DataAccess.UI": "[19.2.5]",
+          "DevExpress.Gauges.Core": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.Charts": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.PivotGrid": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraReports.v19.2.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraReports.v19.2.Extensions.dll": {}
+        }
+      },
+      "DevExpress.Win.RichEdit/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraRichEdit.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraRichEdit.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.TreeList/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraTreeList.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraTreeList.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.VerticalGrid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraVerticalGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraVerticalGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpo.v19.2.dll": {}
+        }
+      },
+      "ReportV2Demo.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.Data": "19.2.5",
+          "DevExpress.ExpressApp": "19.2.5",
+          "DevExpress.ExpressApp.ConditionalAppearance": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2": "19.2.5",
+          "DevExpress.ExpressApp.Security.Xpo": "19.2.5",
+          "DevExpress.Images": "19.2.5",
+          "DevExpress.Pdf.Core": "19.2.5",
+          "DevExpress.Persistent.BaseImpl": "19.2.5",
+          "DevExpress.Printing.Core": "19.2.5",
+          "DevExpress.Utils": "19.2.5"
+        },
+        "compile": {
+          "bin/placeholder/ReportV2Demo.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportV2Demo.Module.dll": {}
+        }
+      },
+      "ReportV2Demo.Module.Win/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.Charts": "19.2.5",
+          "DevExpress.Charts.Core": "19.2.5",
+          "DevExpress.CodeParser": "19.2.5",
+          "DevExpress.Data": "19.2.5",
+          "DevExpress.DataAccess": "19.2.5",
+          "DevExpress.DataAccess.UI": "19.2.5",
+          "DevExpress.Diagram.Core": "19.2.5",
+          "DevExpress.ExpressApp": "19.2.5",
+          "DevExpress.ExpressApp.Objects": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2.Win": "19.2.5",
+          "DevExpress.ExpressApp.Win": "19.2.5",
+          "DevExpress.ExpressApp.Xpo": "19.2.5",
+          "DevExpress.Gauges.Core": "19.2.5",
+          "DevExpress.Images": "19.2.5",
+          "DevExpress.Office.Core": "19.2.5",
+          "DevExpress.Pdf.Core": "19.2.5",
+          "DevExpress.Persistent.Base": "19.2.5",
+          "DevExpress.Persistent.BaseImpl": "19.2.5",
+          "DevExpress.PivotGrid.Core": "19.2.5",
+          "DevExpress.Printing.Core": "19.2.5",
+          "DevExpress.Reporting.Core": "19.2.5",
+          "DevExpress.RichEdit.Core": "19.2.5",
+          "DevExpress.RichEdit.Export": "19.2.5",
+          "DevExpress.Scheduler.Core": "19.2.5",
+          "DevExpress.Sparkline.Core": "19.2.5",
+          "DevExpress.Utils": "19.2.5",
+          "DevExpress.Utils.UI": "19.2.5",
+          "DevExpress.Win": "19.2.5",
+          "DevExpress.Win.BonusSkins": "19.2.5",
+          "DevExpress.Win.Charts": "19.2.5",
+          "DevExpress.Win.Diagram": "19.2.5",
+          "DevExpress.Win.Grid": "19.2.5",
+          "DevExpress.Win.Navigation": "19.2.5",
+          "DevExpress.Win.PivotGrid": "19.2.5",
+          "DevExpress.Win.Printing": "19.2.5",
+          "DevExpress.Win.Reporting": "19.2.5",
+          "DevExpress.Win.RichEdit": "19.2.5",
+          "DevExpress.Win.TreeList": "19.2.5",
+          "DevExpress.Win.VerticalGrid": "19.2.5",
+          "DevExpress.Xpo": "19.2.5",
+          "ReportV2Demo.Module": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReportV2Demo.Module.Win.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportV2Demo.Module.Win.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win-x86": {
+      "DevExpress.Charts/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Charts.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Charts.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Charts.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.CodeParser/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.CodeParser.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.CodeParser.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Data/19.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.Data.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Data.v19.2.dll": {}
+        }
+      },
+      "DevExpress.DataAccess/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.2.dll": {}
+        }
+      },
+      "DevExpress.DataAccess.UI/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.Diagram.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win.Diagram": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.DataAccess.v19.2.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.DataAccess.v19.2.UI.dll": {}
+        }
+      },
+      "DevExpress.Diagram.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Diagram.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Diagram.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ConditionalAppearance/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Images/19.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Images.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Images.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Objects/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Objects.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Objects.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ReportsV2/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.ReportsV2.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.DataAccess.UI": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.ReportsV2": "[19.2.5]",
+          "DevExpress.ExpressApp.Win": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.Reporting": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Security/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Security.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Security.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Security.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Security": "[19.2.5]",
+          "DevExpress.ExpressApp.Xpo": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Validation/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Validation.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Validation.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Validation.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Validation": "[19.2.5]",
+          "DevExpress.ExpressApp.Win": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.BonusSkins": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Win.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Win.v19.2.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Gauges.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraGauges.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraGauges.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Images/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Images.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Images.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Office.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Office.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Office.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Pdf.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Pdf.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Pdf.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Persistent.Base/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Persistent.Base.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Persistent.Base.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Persistent.BaseImpl/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.ExpressApp": "[19.2.5]",
+          "DevExpress.ExpressApp.Objects": "[19.2.5]",
+          "DevExpress.ExpressApp.Xpo": "[19.2.5]",
+          "DevExpress.Persistent.Base": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.Scheduler.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.dll": {}
+        }
+      },
+      "DevExpress.PivotGrid.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.PivotGrid.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.PivotGrid.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Printing.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Printing.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Printing.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Reporting.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.Gauges.Core": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Export": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Xpo": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraReports.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraReports.v19.2.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.RichEdit.Export/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Export.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.RichEdit.v19.2.Export.dll": {}
+        }
+      },
+      "DevExpress.Scheduler.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraScheduler.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Sparkline.Core/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Sparkline.v19.2.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Sparkline.v19.2.Core.dll": {}
+        }
+      },
+      "DevExpress.Utils/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Utils.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Utils.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Utils.UI/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Utils.v19.2.UI.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Utils.v19.2.UI.dll": {}
+        }
+      },
+      "DevExpress.Win/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.RichEdit.Export": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.PivotGrid": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraNavBar.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraWizard.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraNavBar.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraWizard.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.BonusSkins/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.BonusSkins.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.BonusSkins.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Charts/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.Extensions.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.UI.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.Wizard.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraCharts.v19.2.Extensions.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.UI.dll": {},
+          "lib/net452/DevExpress.XtraCharts.v19.2.Wizard.dll": {}
+        }
+      },
+      "DevExpress.Win.Diagram/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Diagram.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraDiagram.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraDiagram.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Grid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Navigation/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraBars.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraEditors.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraLayout.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraBars.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraEditors.v19.2.dll": {},
+          "lib/net452/DevExpress.XtraLayout.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.PivotGrid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraPivotGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraPivotGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Printing/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraPrinting.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraPrinting.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.Reporting/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Charts": "[19.2.5]",
+          "DevExpress.Charts.Core": "[19.2.5]",
+          "DevExpress.CodeParser": "[19.2.5]",
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.DataAccess": "[19.2.5]",
+          "DevExpress.DataAccess.UI": "[19.2.5]",
+          "DevExpress.Gauges.Core": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.PivotGrid.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Reporting.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Sparkline.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Utils.UI": "[19.2.5]",
+          "DevExpress.Win": "[19.2.5]",
+          "DevExpress.Win.Charts": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.PivotGrid": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]",
+          "DevExpress.Win.RichEdit": "[19.2.5]",
+          "DevExpress.Win.TreeList": "[19.2.5]",
+          "DevExpress.Win.VerticalGrid": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraReports.v19.2.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraReports.v19.2.Extensions.dll": {}
+        }
+      },
+      "DevExpress.Win.RichEdit/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Images": "[19.2.5]",
+          "DevExpress.Office.Core": "[19.2.5]",
+          "DevExpress.Pdf.Core": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.RichEdit.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Grid": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraRichEdit.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraRichEdit.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.TreeList/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraTreeList.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraTreeList.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Win.VerticalGrid/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]",
+          "DevExpress.Printing.Core": "[19.2.5]",
+          "DevExpress.Utils": "[19.2.5]",
+          "DevExpress.Win.Navigation": "[19.2.5]",
+          "DevExpress.Win.Printing": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.XtraVerticalGrid.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.XtraVerticalGrid.v19.2.dll": {}
+        }
+      },
+      "DevExpress.Xpo/19.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[19.2.5]"
+        },
+        "compile": {
+          "lib/net452/DevExpress.Xpo.v19.2.dll": {}
+        },
+        "runtime": {
+          "lib/net452/DevExpress.Xpo.v19.2.dll": {}
+        }
+      },
+      "ReportV2Demo.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.Data": "19.2.5",
+          "DevExpress.ExpressApp": "19.2.5",
+          "DevExpress.ExpressApp.ConditionalAppearance": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2": "19.2.5",
+          "DevExpress.ExpressApp.Security.Xpo": "19.2.5",
+          "DevExpress.Images": "19.2.5",
+          "DevExpress.Pdf.Core": "19.2.5",
+          "DevExpress.Persistent.BaseImpl": "19.2.5",
+          "DevExpress.Printing.Core": "19.2.5",
+          "DevExpress.Utils": "19.2.5"
+        },
+        "compile": {
+          "bin/placeholder/ReportV2Demo.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportV2Demo.Module.dll": {}
+        }
+      },
+      "ReportV2Demo.Module.Win/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "DevExpress.Charts": "19.2.5",
+          "DevExpress.Charts.Core": "19.2.5",
+          "DevExpress.CodeParser": "19.2.5",
+          "DevExpress.Data": "19.2.5",
+          "DevExpress.DataAccess": "19.2.5",
+          "DevExpress.DataAccess.UI": "19.2.5",
+          "DevExpress.Diagram.Core": "19.2.5",
+          "DevExpress.ExpressApp": "19.2.5",
+          "DevExpress.ExpressApp.Objects": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2": "19.2.5",
+          "DevExpress.ExpressApp.ReportsV2.Win": "19.2.5",
+          "DevExpress.ExpressApp.Win": "19.2.5",
+          "DevExpress.ExpressApp.Xpo": "19.2.5",
+          "DevExpress.Gauges.Core": "19.2.5",
+          "DevExpress.Images": "19.2.5",
+          "DevExpress.Office.Core": "19.2.5",
+          "DevExpress.Pdf.Core": "19.2.5",
+          "DevExpress.Persistent.Base": "19.2.5",
+          "DevExpress.Persistent.BaseImpl": "19.2.5",
+          "DevExpress.PivotGrid.Core": "19.2.5",
+          "DevExpress.Printing.Core": "19.2.5",
+          "DevExpress.Reporting.Core": "19.2.5",
+          "DevExpress.RichEdit.Core": "19.2.5",
+          "DevExpress.RichEdit.Export": "19.2.5",
+          "DevExpress.Scheduler.Core": "19.2.5",
+          "DevExpress.Sparkline.Core": "19.2.5",
+          "DevExpress.Utils": "19.2.5",
+          "DevExpress.Utils.UI": "19.2.5",
+          "DevExpress.Win": "19.2.5",
+          "DevExpress.Win.BonusSkins": "19.2.5",
+          "DevExpress.Win.Charts": "19.2.5",
+          "DevExpress.Win.Diagram": "19.2.5",
+          "DevExpress.Win.Grid": "19.2.5",
+          "DevExpress.Win.Navigation": "19.2.5",
+          "DevExpress.Win.PivotGrid": "19.2.5",
+          "DevExpress.Win.Printing": "19.2.5",
+          "DevExpress.Win.Reporting": "19.2.5",
+          "DevExpress.Win.RichEdit": "19.2.5",
+          "DevExpress.Win.TreeList": "19.2.5",
+          "DevExpress.Win.VerticalGrid": "19.2.5",
+          "DevExpress.Xpo": "19.2.5",
+          "ReportV2Demo.Module": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReportV2Demo.Module.Win.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportV2Demo.Module.Win.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevExpress.Charts/19.2.5": {
+      "sha512": "647xjxWQfCb+/SS7KbBWOR2SCqB1Oi7NkPCppp5jiup964WMtZ58Of1ToPc1X1H4dp+5FB0aIqmENBbGGD8i8w==",
+      "type": "package",
+      "path": "devexpress.charts/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.charts.19.2.5.nupkg.sha512",
+        "devexpress.charts.nuspec",
+        "lib/net452/DevExpress.XtraCharts.v19.2.dll",
+        "lib/net452/DevExpress.XtraCharts.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.XtraCharts.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.XtraCharts.v19.2.xml"
+      ]
+    },
+    "DevExpress.Charts.Core/19.2.5": {
+      "sha512": "RUFtNQZxUvx0L614pHryiSNWoTmKP9yhUVx3n3IvSJp3qkX1tvF55mmvUSM9/ITR1B6Og0Njn9vNAA2YC6ZECQ==",
+      "type": "package",
+      "path": "devexpress.charts.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.charts.core.19.2.5.nupkg.sha512",
+        "devexpress.charts.core.nuspec",
+        "lib/net452/DevExpress.Charts.v19.2.Core.dll",
+        "lib/netstandard2.0/DevExpress.Charts.v19.2.Core.dll"
+      ]
+    },
+    "DevExpress.CodeParser/19.2.5": {
+      "sha512": "OPcrKB5d0KO0K8XSgTrs7BH1FfRNqzVou+bmJcn/1DyfuS3xYrU89GOr7NUwC8hSqUUZle1GfuIz7xyG+Vz7UA==",
+      "type": "package",
+      "path": "devexpress.codeparser/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.codeparser.19.2.5.nupkg.sha512",
+        "devexpress.codeparser.nuspec",
+        "lib/net452/DevExpress.CodeParser.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.CodeParser.v19.2.dll"
+      ]
+    },
+    "DevExpress.Data/19.2.5": {
+      "sha512": "wN99e/SH60jIwwXBCg0rkXI9ZwOYFFSnyxzj/F+MKYDd8FPu4aqFHGYMOcqyxBMeM+NUskpjz6qfG+AwMfMIgQ==",
+      "type": "package",
+      "path": "devexpress.data/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.data.19.2.5.nupkg.sha512",
+        "devexpress.data.nuspec",
+        "lib/net452/DevExpress.Data.v19.2.dll",
+        "lib/net452/DevExpress.Data.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.Data.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.Data.v19.2.xml"
+      ]
+    },
+    "DevExpress.DataAccess/19.2.5": {
+      "sha512": "KwAlclKfHaF0o7/Aq3x10/rEEW24Ikowp7WjSLpSw4YmGK6GRDVjCgkQfQZytM49sdm+lxOJYXa50ZtuLyeoEg==",
+      "type": "package",
+      "path": "devexpress.dataaccess/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.dataaccess.19.2.5.nupkg.sha512",
+        "devexpress.dataaccess.nuspec",
+        "lib/net452/DevExpress.DataAccess.v19.2.dll",
+        "lib/net452/DevExpress.DataAccess.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.DataAccess.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.DataAccess.v19.2.xml"
+      ]
+    },
+    "DevExpress.DataAccess.UI/19.2.5": {
+      "sha512": "jkDI/pZRe+2oFFkDCLeaexUIzfy56zE4hbdlYju6Z3WDX1aSSs+E+DPpSz2zl4c81UU1ZUvw3rvnGOe8w9zweg==",
+      "type": "package",
+      "path": "devexpress.dataaccess.ui/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.dataaccess.ui.19.2.5.nupkg.sha512",
+        "devexpress.dataaccess.ui.nuspec",
+        "lib/net452/DevExpress.DataAccess.v19.2.UI.dll",
+        "lib/net452/DevExpress.DataAccess.v19.2.UI.xml"
+      ]
+    },
+    "DevExpress.Diagram.Core/19.2.5": {
+      "sha512": "aggHYErJyQomaINkPpaBj/1QKgvZb5h5sy/+H3eUwvNjv+KgfA0rMzjZt1zSAV7sJZmmBd47wUKFoE0TG1YQsw==",
+      "type": "package",
+      "path": "devexpress.diagram.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.diagram.core.19.2.5.nupkg.sha512",
+        "devexpress.diagram.core.nuspec",
+        "lib/net452/DevExpress.Diagram.v19.2.Core.dll",
+        "lib/net452/DevExpress.Diagram.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.ExpressApp/19.2.5": {
+      "sha512": "BUG5IJC7YMTFqHaRIoKOB7HFYptZJFxeNZaCvyYrpW9fQ41ckM1YZy6CyHO4+sH1dN3NHRK92o1bIHIlthgLLA==",
+      "type": "package",
+      "path": "devexpress.expressapp/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.nuspec",
+        "lib/net452/DevExpress.ExpressApp.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.ExpressApp.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.v19.2.xml"
+      ]
+    },
+    "DevExpress.ExpressApp.ConditionalAppearance/19.2.5": {
+      "sha512": "l41AcOzOTZFRdNQyfbA1d61qzLgUUfZOiv6XbSGKUQUbjGPBtwGHNoIuEow8JgDAiCu+2TZeazORpH3WuCjnbg==",
+      "type": "package",
+      "path": "devexpress.expressapp.conditionalappearance/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.conditionalappearance.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.conditionalappearance.nuspec",
+        "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v19.2.xml"
+      ]
+    },
+    "DevExpress.ExpressApp.Images/19.2.5": {
+      "sha512": "dRbovasiA1tXdYk7ygyNJxn5XHxM0spnu5hSfVV+9DYdWz9RVYnq/WpmZ4Th33KsZndnMfR6PzMZWNnQHmldJQ==",
+      "type": "package",
+      "path": "devexpress.expressapp.images/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.images.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.images.nuspec",
+        "lib/net452/DevExpress.ExpressApp.Images.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Images.v19.2.dll"
+      ]
+    },
+    "DevExpress.ExpressApp.Objects/19.2.5": {
+      "sha512": "kcEfJ5RNHmc5XEnsbz/rAC19PddPJ8AFRnoqC30hmdNRqSopKORJsHioyMdNafNT5R4IvWWnpJr0cQKHgY8pGw==",
+      "type": "package",
+      "path": "devexpress.expressapp.objects/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.objects.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.objects.nuspec",
+        "lib/net452/DevExpress.ExpressApp.Objects.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Objects.v19.2.dll"
+      ]
+    },
+    "DevExpress.ExpressApp.ReportsV2/19.2.5": {
+      "sha512": "iBlWVjOEQ7a5tsbKqMvFaaXDMJsWpIi1+EMsHeQVqqixho4Z00hTMeB0yVmDkoLl+zADE6ovmxPuo3Q2z4rDuQ==",
+      "type": "package",
+      "path": "devexpress.expressapp.reportsv2/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.reportsv2.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.reportsv2.nuspec",
+        "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.ReportsV2.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.ExpressApp.ReportsV2.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.ReportsV2.v19.2.xml"
+      ]
+    },
+    "DevExpress.ExpressApp.ReportsV2.Win/19.2.5": {
+      "sha512": "rkC7Jbgijj4PoIWBiDYhoneGWpNxl7fv/pyz38dLXQFr/U2Sjf/VeKMgVAvp2sK6fyFaVu+p4DHkO5n4IsDMug==",
+      "type": "package",
+      "path": "devexpress.expressapp.reportsv2.win/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.reportsv2.win.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.reportsv2.win.nuspec",
+        "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.ReportsV2.Win.v19.2.xml"
+      ]
+    },
+    "DevExpress.ExpressApp.Security/19.2.5": {
+      "sha512": "O69g5KKI4p7tBtAX2WKMYoBntL2ydQF3zmdGfNMoO4mOZ3kWuB+EhwdFNObVqwJW09t/R3RD3c1/Fv5LZZMFcQ==",
+      "type": "package",
+      "path": "devexpress.expressapp.security/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.security.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.security.nuspec",
+        "lib/net452/DevExpress.ExpressApp.Security.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Security.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Security.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Security.v19.2.xml"
+      ]
+    },
+    "DevExpress.ExpressApp.Security.Xpo/19.2.5": {
+      "sha512": "XnX6BKha6K/iicyLLSR/idUu+SC0vN+XR2Z9OtKWPEUFb2JuRavwH9mW/cTyPWDtxts6q+b/AT1G3kYEV6xdZw==",
+      "type": "package",
+      "path": "devexpress.expressapp.security.xpo/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.security.xpo.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.security.xpo.nuspec",
+        "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Security.Xpo.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Security.Xpo.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Security.Xpo.v19.2.xml"
+      ]
+    },
+    "DevExpress.ExpressApp.Validation/19.2.5": {
+      "sha512": "aQQ0y4BEjbBMeIcsbcHXVMp1kwjBAN9B+DGz20aXDAa6AZF/6fiqYlX+OguB8uyC4L8dlupg0u9/q1yIZLy+LQ==",
+      "type": "package",
+      "path": "devexpress.expressapp.validation/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.validation.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.validation.nuspec",
+        "lib/net452/DevExpress.ExpressApp.Validation.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Validation.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v19.2.xml"
+      ]
+    },
+    "DevExpress.ExpressApp.Validation.Win/19.2.5": {
+      "sha512": "m1o9JATYos3VRziDOTS5b5+QwA/OpM6s5saj7bpbKNmCsR3uCe7jPMFIkVP/wLCiIFskJziqmfW7LbM10JE28w==",
+      "type": "package",
+      "path": "devexpress.expressapp.validation.win/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.validation.win.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.validation.win.nuspec",
+        "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Validation.Win.v19.2.xml"
+      ]
+    },
+    "DevExpress.ExpressApp.Win/19.2.5": {
+      "sha512": "0F6V2Sks8BmbYGokpOAqDtLbK087R4eEekjn98K6l5tPRr3gQPM2EHvIH9FPUmy8NAbOQztrTTzVXqxisWy5ew==",
+      "type": "package",
+      "path": "devexpress.expressapp.win/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.win.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.win.nuspec",
+        "lib/net452/DevExpress.ExpressApp.Win.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Win.v19.2.xml"
+      ]
+    },
+    "DevExpress.ExpressApp.Xpo/19.2.5": {
+      "sha512": "EZJvg1Y4s90op4x4wTFpkxbFRoEYwzgBY2hmMTt8Kv2GJUUMJWEkovEoWTscnBM/+3U4w+7121n7LYo5njNzgw==",
+      "type": "package",
+      "path": "devexpress.expressapp.xpo/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.xpo.19.2.5.nupkg.sha512",
+        "devexpress.expressapp.xpo.nuspec",
+        "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Xpo.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Xpo.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Xpo.v19.2.xml"
+      ]
+    },
+    "DevExpress.Gauges.Core/19.2.5": {
+      "sha512": "W9+2Dzmwp/xys/BThYiFL/3y2qVp5QlOfwHEIkfDM/yZRNs4eR93wFGz1U8FdE99h3HUh5eQtTMtoQOqOlUbyw==",
+      "type": "package",
+      "path": "devexpress.gauges.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.gauges.core.19.2.5.nupkg.sha512",
+        "devexpress.gauges.core.nuspec",
+        "lib/net452/DevExpress.XtraGauges.v19.2.Core.dll",
+        "lib/net452/DevExpress.XtraGauges.v19.2.Core.xml",
+        "lib/netstandard2.0/DevExpress.XtraGauges.v19.2.Core.dll",
+        "lib/netstandard2.0/DevExpress.XtraGauges.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.Images/19.2.5": {
+      "sha512": "XmADV3klbda8+K7QOFiaPSPgfllssPTMl2RA0w2/oeQNW9kod0tnM4PEGOL+51PMNxJcV+eou2vTldOPL2o8oA==",
+      "type": "package",
+      "path": "devexpress.images/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.images.19.2.5.nupkg.sha512",
+        "devexpress.images.nuspec",
+        "lib/net452/DevExpress.Images.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.Images.v19.2.dll"
+      ]
+    },
+    "DevExpress.Office.Core/19.2.5": {
+      "sha512": "9AeCT5fCi8eOWxiQNJm6W8ppYPBx+59cq3A/KGpdscjEV4w5p7q0VsoJumVnsoYqfjwSL33YnqjJTiL6NNdhFg==",
+      "type": "package",
+      "path": "devexpress.office.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.office.core.19.2.5.nupkg.sha512",
+        "devexpress.office.core.nuspec",
+        "lib/net452/DevExpress.Office.v19.2.Core.dll",
+        "lib/net452/DevExpress.Office.v19.2.Core.xml",
+        "lib/netstandard2.0/DevExpress.Office.v19.2.Core.dll",
+        "lib/netstandard2.0/DevExpress.Office.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.Pdf.Core/19.2.5": {
+      "sha512": "c8fknEaHo1Bhmz8fL2fy/AdPUG2Ekfc7MkdTHidtej+6KEVdLFU53LqhbyoyvW1eoVpKXo+hT4wJUvzeA5Pmow==",
+      "type": "package",
+      "path": "devexpress.pdf.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.pdf.core.19.2.5.nupkg.sha512",
+        "devexpress.pdf.core.nuspec",
+        "lib/net452/DevExpress.Pdf.v19.2.Core.dll",
+        "lib/net452/DevExpress.Pdf.v19.2.Core.xml",
+        "lib/netstandard2.0/DevExpress.Pdf.v19.2.Core.dll",
+        "lib/netstandard2.0/DevExpress.Pdf.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.Persistent.Base/19.2.5": {
+      "sha512": "VEu3Sm4AWRiTBfun08iXYFBbdilzpQ1iwZ0Y3Bm/Gt7xICbkPmJuo5kxSods4toOfoTxvCJUtkGbgY2lp4mXiA==",
+      "type": "package",
+      "path": "devexpress.persistent.base/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.persistent.base.19.2.5.nupkg.sha512",
+        "devexpress.persistent.base.nuspec",
+        "lib/net452/DevExpress.Persistent.Base.v19.2.dll",
+        "lib/net452/DevExpress.Persistent.Base.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.Persistent.Base.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.Persistent.Base.v19.2.xml"
+      ]
+    },
+    "DevExpress.Persistent.BaseImpl/19.2.5": {
+      "sha512": "sDL6DMbuj2lcIVJ2cewrw1Ur/E0UNpZHjHQB0N++EhG6I3VHN6loOYHLhoACO9+ayFSEfeovJZC57VftWXB1UA==",
+      "type": "package",
+      "path": "devexpress.persistent.baseimpl/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.persistent.baseimpl.19.2.5.nupkg.sha512",
+        "devexpress.persistent.baseimpl.nuspec",
+        "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.dll",
+        "lib/net452/DevExpress.Persistent.BaseImpl.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.Persistent.BaseImpl.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.Persistent.BaseImpl.v19.2.xml"
+      ]
+    },
+    "DevExpress.PivotGrid.Core/19.2.5": {
+      "sha512": "MUyvDH5QxB8qtcCZ07dWfaWFIS06gTs0qOMy70anTE1fTggcaC3SvltukXGMhzk2cZdHX3ew10GnNFOmHem5LQ==",
+      "type": "package",
+      "path": "devexpress.pivotgrid.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.pivotgrid.core.19.2.5.nupkg.sha512",
+        "devexpress.pivotgrid.core.nuspec",
+        "lib/net452/DevExpress.PivotGrid.v19.2.Core.dll",
+        "lib/net452/DevExpress.PivotGrid.v19.2.Core.xml",
+        "lib/netstandard2.0/DevExpress.PivotGrid.v19.2.Core.dll",
+        "lib/netstandard2.0/DevExpress.PivotGrid.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.Printing.Core/19.2.5": {
+      "sha512": "PHoY6EXmPbOC6N4Nq37LOTzN3eWOASYcyZ1yIwTvu9yuRTJW9YCR1fThLHmJbABzELNrC8MvhE6UsqCPFi8N6Q==",
+      "type": "package",
+      "path": "devexpress.printing.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.printing.core.19.2.5.nupkg.sha512",
+        "devexpress.printing.core.nuspec",
+        "lib/net452/DevExpress.Printing.v19.2.Core.dll",
+        "lib/net452/DevExpress.Printing.v19.2.Core.xml",
+        "lib/netstandard2.0/DevExpress.Printing.v19.2.Core.dll",
+        "lib/netstandard2.0/DevExpress.Printing.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.Reporting.Core/19.2.5": {
+      "sha512": "I/iYhT0Mj9G71/CJVVMoa2uxUy4wjkZCgD41mtkd94rWsQFoDo36kUsTSNjHGddPbpy4BlQCys4fg13AevhYQg==",
+      "type": "package",
+      "path": "devexpress.reporting.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.reporting.core.19.2.5.nupkg.sha512",
+        "devexpress.reporting.core.nuspec",
+        "lib/net452/DevExpress.XtraReports.v19.2.dll",
+        "lib/net452/DevExpress.XtraReports.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.XtraReports.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.XtraReports.v19.2.xml"
+      ]
+    },
+    "DevExpress.RichEdit.Core/19.2.5": {
+      "sha512": "Optg5DZYEdhKfvdWtrPtUqhF2E62lEXWkNr+wG3/wUstTMnNVqVZ276fodsHJJecY2PU3es+tvDvktkHwC8WyQ==",
+      "type": "package",
+      "path": "devexpress.richedit.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.richedit.core.19.2.5.nupkg.sha512",
+        "devexpress.richedit.core.nuspec",
+        "lib/net452/DevExpress.RichEdit.v19.2.Core.dll",
+        "lib/net452/DevExpress.RichEdit.v19.2.Core.xml",
+        "lib/netstandard2.0/DevExpress.RichEdit.v19.2.Core.dll",
+        "lib/netstandard2.0/DevExpress.RichEdit.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.RichEdit.Export/19.2.5": {
+      "sha512": "oMCKRrEpqIXxxOqqelyFVpBL1fC9g+Q96H2peyT56C19XtlYITp6dD2LckiJgYr6mi5BtnogAPDPmDhtX4BQ0Q==",
+      "type": "package",
+      "path": "devexpress.richedit.export/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.richedit.export.19.2.5.nupkg.sha512",
+        "devexpress.richedit.export.nuspec",
+        "lib/net452/DevExpress.RichEdit.v19.2.Export.dll",
+        "lib/netstandard2.0/DevExpress.RichEdit.v19.2.Export.dll"
+      ]
+    },
+    "DevExpress.Scheduler.Core/19.2.5": {
+      "sha512": "/BJPACq1NYQ8qx+2ScQ7uDfFqOIo1GHIW2GUb+K8a5vuAhNzpuS2gXPVtQSGVSqmg9/FxwjqbKHluYjMif6qFw==",
+      "type": "package",
+      "path": "devexpress.scheduler.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.scheduler.core.19.2.5.nupkg.sha512",
+        "devexpress.scheduler.core.nuspec",
+        "lib/net452/DevExpress.XtraScheduler.v19.2.Core.dll",
+        "lib/net452/DevExpress.XtraScheduler.v19.2.Core.xml",
+        "lib/netstandard2.0/DevExpress.XtraScheduler.v19.2.Core.dll",
+        "lib/netstandard2.0/DevExpress.XtraScheduler.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.Sparkline.Core/19.2.5": {
+      "sha512": "xKyU1+dvsC5nid6sTedKeP0Aq7aLydkM9w4OrQ8rYee6XdeO+fRDMMM3olneVVZBPeNjdQb1X8dWuYGU25HQZw==",
+      "type": "package",
+      "path": "devexpress.sparkline.core/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.sparkline.core.19.2.5.nupkg.sha512",
+        "devexpress.sparkline.core.nuspec",
+        "lib/net452/DevExpress.Sparkline.v19.2.Core.dll",
+        "lib/net452/DevExpress.Sparkline.v19.2.Core.xml",
+        "lib/netstandard2.0/DevExpress.Sparkline.v19.2.Core.dll",
+        "lib/netstandard2.0/DevExpress.Sparkline.v19.2.Core.xml"
+      ]
+    },
+    "DevExpress.Utils/19.2.5": {
+      "sha512": "aZLmba1jSSft1UWBcjQzh21EFem7iphBMmKdZV6QWuKkQ+oysqfSdGASrn/wRks/79q5fwTWgpeb42yScSMQ5A==",
+      "type": "package",
+      "path": "devexpress.utils/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.utils.19.2.5.nupkg.sha512",
+        "devexpress.utils.nuspec",
+        "lib/net452/DevExpress.Utils.v19.2.dll",
+        "lib/net452/DevExpress.Utils.v19.2.xml"
+      ]
+    },
+    "DevExpress.Utils.UI/19.2.5": {
+      "sha512": "n2/vUW7wqkmjJrrFGdobdglXV4W9bEHXJ4oZTXI8xl9567QtcQUuOUbNQ6Jm3w8XB54Thl2/T0bef+TTdsTzAQ==",
+      "type": "package",
+      "path": "devexpress.utils.ui/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.utils.ui.19.2.5.nupkg.sha512",
+        "devexpress.utils.ui.nuspec",
+        "lib/net452/DevExpress.Utils.v19.2.UI.dll",
+        "lib/net452/DevExpress.Utils.v19.2.UI.xml"
+      ]
+    },
+    "DevExpress.Win/19.2.5": {
+      "sha512": "LDxGETcXfsnjoSDdVLXlvzB070JcLBeJXpwdQor8RVlqAr4z2E/foNFXHRsoOAvRKsfjwCPSD7gGxpXIu4Jryg==",
+      "type": "package",
+      "path": "devexpress.win/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.19.2.5.nupkg.sha512",
+        "devexpress.win.nuspec",
+        "lib/net452/DevExpress.XtraNavBar.v19.2.dll",
+        "lib/net452/DevExpress.XtraNavBar.v19.2.xml",
+        "lib/net452/DevExpress.XtraWizard.v19.2.dll",
+        "lib/net452/DevExpress.XtraWizard.v19.2.xml"
+      ]
+    },
+    "DevExpress.Win.BonusSkins/19.2.5": {
+      "sha512": "UyiFcXVHTInaoPBgCZHUVHWvpzVAWzhR4a1hbn7XAfu+58cqgKb+k6m5UIowiCW3p5WDGbGAHCOAwmxYE+2DTQ==",
+      "type": "package",
+      "path": "devexpress.win.bonusskins/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.bonusskins.19.2.5.nupkg.sha512",
+        "devexpress.win.bonusskins.nuspec",
+        "lib/net452/DevExpress.BonusSkins.v19.2.dll"
+      ]
+    },
+    "DevExpress.Win.Charts/19.2.5": {
+      "sha512": "bCPHoRmLWjUKkTEBNHUhUzNPfYocd05Tw/pKxFnDtEDs1CEpHaxAYvJXNghAc+IRiGKCX10uEGx6sZkhOdKkSQ==",
+      "type": "package",
+      "path": "devexpress.win.charts/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.charts.19.2.5.nupkg.sha512",
+        "devexpress.win.charts.nuspec",
+        "lib/net452/DevExpress.XtraCharts.v19.2.Extensions.dll",
+        "lib/net452/DevExpress.XtraCharts.v19.2.UI.dll",
+        "lib/net452/DevExpress.XtraCharts.v19.2.UI.xml",
+        "lib/net452/DevExpress.XtraCharts.v19.2.Wizard.dll"
+      ]
+    },
+    "DevExpress.Win.Diagram/19.2.5": {
+      "sha512": "ZMvvptkVoILhX/JEBkbM7wpCoLAXs7E8Hr+STtMDuFrZFZL4GIABj0/AUhqx5EIidi1hFaX0PuR9ah8Za4AfVQ==",
+      "type": "package",
+      "path": "devexpress.win.diagram/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.diagram.19.2.5.nupkg.sha512",
+        "devexpress.win.diagram.nuspec",
+        "lib/net452/DevExpress.XtraDiagram.v19.2.dll",
+        "lib/net452/DevExpress.XtraDiagram.v19.2.xml"
+      ]
+    },
+    "DevExpress.Win.Grid/19.2.5": {
+      "sha512": "WVk4c+Xudw4QGW9gMXUUXepHWgt8xpuEf2rR71D+k5vFwNoL0j7RgqvSzoW+eexC53Mi8QkpdVYZAxWaxJhZLQ==",
+      "type": "package",
+      "path": "devexpress.win.grid/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.grid.19.2.5.nupkg.sha512",
+        "devexpress.win.grid.nuspec",
+        "lib/net452/DevExpress.XtraGrid.v19.2.dll",
+        "lib/net452/DevExpress.XtraGrid.v19.2.xml"
+      ]
+    },
+    "DevExpress.Win.Navigation/19.2.5": {
+      "sha512": "zjywdHdwJFnsHVHKqrgk2pX9IhWar0lc7K7xEiSgwt85YGROj2pnrDW3b/iJQ0KvRNNzKYZqKDvP5j3JX5cD/A==",
+      "type": "package",
+      "path": "devexpress.win.navigation/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.navigation.19.2.5.nupkg.sha512",
+        "devexpress.win.navigation.nuspec",
+        "lib/net452/DevExpress.XtraBars.v19.2.dll",
+        "lib/net452/DevExpress.XtraBars.v19.2.xml",
+        "lib/net452/DevExpress.XtraEditors.v19.2.dll",
+        "lib/net452/DevExpress.XtraEditors.v19.2.xml",
+        "lib/net452/DevExpress.XtraLayout.v19.2.dll",
+        "lib/net452/DevExpress.XtraLayout.v19.2.xml"
+      ]
+    },
+    "DevExpress.Win.PivotGrid/19.2.5": {
+      "sha512": "CchsrdhejisFxPuGEKOZa5ZoCooWKcQvFKpOHu0ZYFiY2Ts4j2RJhhNbyU+PB8gGp4UzXPnmcKZAR6aCXyT+eA==",
+      "type": "package",
+      "path": "devexpress.win.pivotgrid/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.pivotgrid.19.2.5.nupkg.sha512",
+        "devexpress.win.pivotgrid.nuspec",
+        "lib/net452/DevExpress.XtraPivotGrid.v19.2.dll",
+        "lib/net452/DevExpress.XtraPivotGrid.v19.2.xml"
+      ]
+    },
+    "DevExpress.Win.Printing/19.2.5": {
+      "sha512": "2mqn0iqhpwveu4aF7nR/QOQEX60LS/UtFs5gsdOMlrD9jxOGtZJXkTLKT7JWW85ygKpumuMRmhUT9MuAuQ1MLA==",
+      "type": "package",
+      "path": "devexpress.win.printing/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.printing.19.2.5.nupkg.sha512",
+        "devexpress.win.printing.nuspec",
+        "lib/net452/DevExpress.XtraPrinting.v19.2.dll",
+        "lib/net452/DevExpress.XtraPrinting.v19.2.xml"
+      ]
+    },
+    "DevExpress.Win.Reporting/19.2.5": {
+      "sha512": "eSldMTx6CBZPW9vdQVB8BH/kwF9W1/uFroBu3d8Aw9iTU53yxLFu8RBYr1gSKJC6yi4wF2U91fEZHxaEKApkkA==",
+      "type": "package",
+      "path": "devexpress.win.reporting/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.reporting.19.2.5.nupkg.sha512",
+        "devexpress.win.reporting.nuspec",
+        "lib/net452/DevExpress.XtraReports.v19.2.Extensions.dll",
+        "lib/net452/DevExpress.XtraReports.v19.2.Extensions.xml"
+      ]
+    },
+    "DevExpress.Win.RichEdit/19.2.5": {
+      "sha512": "8ad8pfEOOV9QCEMumTS9EhFYb3XqzyQzCYV2gqFH5RLYNeDo0a4EobGpECIAcCC0brRCOo1zmECnNoW2H5GiSw==",
+      "type": "package",
+      "path": "devexpress.win.richedit/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.richedit.19.2.5.nupkg.sha512",
+        "devexpress.win.richedit.nuspec",
+        "lib/net452/DevExpress.XtraRichEdit.v19.2.dll",
+        "lib/net452/DevExpress.XtraRichEdit.v19.2.xml"
+      ]
+    },
+    "DevExpress.Win.TreeList/19.2.5": {
+      "sha512": "KZ8odE5GFKgtf/8yqkWpdvzZ9tqlpvm8uLqLxWtID+RWy8VO3vtcAdzZ3uywWwdYCoCnt05/AJExkjb7FHuKFA==",
+      "type": "package",
+      "path": "devexpress.win.treelist/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.treelist.19.2.5.nupkg.sha512",
+        "devexpress.win.treelist.nuspec",
+        "lib/net452/DevExpress.XtraTreeList.v19.2.dll",
+        "lib/net452/DevExpress.XtraTreeList.v19.2.xml"
+      ]
+    },
+    "DevExpress.Win.VerticalGrid/19.2.5": {
+      "sha512": "Ndic8gGcqOtLHNsF4tATnerDqQLvWyNtyZx9X0QgQIXS9NrIfuvlrn0lJcQGIEZfEIM4ZCTTozjGXNIpYkvoQg==",
+      "type": "package",
+      "path": "devexpress.win.verticalgrid/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.win.verticalgrid.19.2.5.nupkg.sha512",
+        "devexpress.win.verticalgrid.nuspec",
+        "lib/net452/DevExpress.XtraVerticalGrid.v19.2.dll",
+        "lib/net452/DevExpress.XtraVerticalGrid.v19.2.xml"
+      ]
+    },
+    "DevExpress.Xpo/19.2.5": {
+      "sha512": "EAj+QoyrBzCNFL8wBkWxzaJAcWjvmWpw5tbJLXoQHR2qnb1MXPvY1FdFT1HbQxQTyiH6PzFb2gg0mwLILQCaIg==",
+      "type": "package",
+      "path": "devexpress.xpo/19.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.xpo.19.2.5.nupkg.sha512",
+        "devexpress.xpo.nuspec",
+        "lib/net452/DevExpress.Xpo.v19.2.dll",
+        "lib/net452/DevExpress.Xpo.v19.2.xml",
+        "lib/netstandard2.0/DevExpress.Xpo.v19.2.dll",
+        "lib/netstandard2.0/DevExpress.Xpo.v19.2.xml"
+      ]
+    },
+    "ReportV2Demo.Module/1.0.0": {
+      "type": "project",
+      "path": "../ReportV2Demo.Module/ReportV2Demo.Module.csproj",
+      "msbuildProject": "../ReportV2Demo.Module/ReportV2Demo.Module.csproj"
+    },
+    "ReportV2Demo.Module.Win/1.0.0": {
+      "type": "project",
+      "path": "../ReportV2Demo.Module.Win/ReportV2Demo.Module.Win.csproj",
+      "msbuildProject": "../ReportV2Demo.Module.Win/ReportV2Demo.Module.Win.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.2": [
+      "DevExpress.Charts >= 19.2.5",
+      "DevExpress.Charts.Core >= 19.2.5",
+      "DevExpress.CodeParser >= 19.2.5",
+      "DevExpress.Data >= 19.2.5",
+      "DevExpress.DataAccess >= 19.2.5",
+      "DevExpress.DataAccess.UI >= 19.2.5",
+      "DevExpress.Diagram.Core >= 19.2.5",
+      "DevExpress.ExpressApp >= 19.2.5",
+      "DevExpress.ExpressApp.ConditionalAppearance >= 19.2.5",
+      "DevExpress.ExpressApp.Images >= 19.2.5",
+      "DevExpress.ExpressApp.Objects >= 19.2.5",
+      "DevExpress.ExpressApp.ReportsV2 >= 19.2.5",
+      "DevExpress.ExpressApp.ReportsV2.Win >= 19.2.5",
+      "DevExpress.ExpressApp.Validation >= 19.2.5",
+      "DevExpress.ExpressApp.Validation.Win >= 19.2.5",
+      "DevExpress.ExpressApp.Win >= 19.2.5",
+      "DevExpress.ExpressApp.Xpo >= 19.2.5",
+      "DevExpress.Gauges.Core >= 19.2.5",
+      "DevExpress.Images >= 19.2.5",
+      "DevExpress.Office.Core >= 19.2.5",
+      "DevExpress.Pdf.Core >= 19.2.5",
+      "DevExpress.Persistent.Base >= 19.2.5",
+      "DevExpress.Persistent.BaseImpl >= 19.2.5",
+      "DevExpress.PivotGrid.Core >= 19.2.5",
+      "DevExpress.Printing.Core >= 19.2.5",
+      "DevExpress.Reporting.Core >= 19.2.5",
+      "DevExpress.RichEdit.Core >= 19.2.5",
+      "DevExpress.RichEdit.Export >= 19.2.5",
+      "DevExpress.Scheduler.Core >= 19.2.5",
+      "DevExpress.Sparkline.Core >= 19.2.5",
+      "DevExpress.Utils >= 19.2.5",
+      "DevExpress.Utils.UI >= 19.2.5",
+      "DevExpress.Win >= 19.2.5",
+      "DevExpress.Win.BonusSkins >= 19.2.5",
+      "DevExpress.Win.Charts >= 19.2.5",
+      "DevExpress.Win.Diagram >= 19.2.5",
+      "DevExpress.Win.Grid >= 19.2.5",
+      "DevExpress.Win.Navigation >= 19.2.5",
+      "DevExpress.Win.PivotGrid >= 19.2.5",
+      "DevExpress.Win.Printing >= 19.2.5",
+      "DevExpress.Win.Reporting >= 19.2.5",
+      "DevExpress.Win.RichEdit >= 19.2.5",
+      "DevExpress.Win.TreeList >= 19.2.5",
+      "DevExpress.Win.VerticalGrid >= 19.2.5",
+      "DevExpress.Xpo >= 19.2.5",
+      "ReportV2Demo.Module >= 1.0.0",
+      "ReportV2Demo.Module.Win >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\ReportsV2Demo\\ReportV2Demo.Win\\ReportV2Demo.Win.csproj",
+      "projectName": "ReportV2Demo.Win",
+      "projectPath": "C:\\Projects\\ReportsV2Demo\\ReportV2Demo.Win\\ReportV2Demo.Win.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\ReportsV2Demo\\ReportV2Demo.Win\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net452"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net452": {
+          "projectReferences": {
+            "C:\\Projects\\ReportsV2Demo\\ReportV2Demo.Module.Win\\ReportV2Demo.Module.Win.csproj": {
+              "projectPath": "C:\\Projects\\ReportsV2Demo\\ReportV2Demo.Module.Win\\ReportV2Demo.Module.Win.csproj"
+            },
+            "C:\\Projects\\ReportsV2Demo\\ReportV2Demo.Module\\ReportV2Demo.Module.csproj": {
+              "projectPath": "C:\\Projects\\ReportsV2Demo\\ReportV2Demo.Module\\ReportV2Demo.Module.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net452": {
+        "dependencies": {
+          "DevExpress.Charts": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Charts.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.CodeParser": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Data": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.DataAccess": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.DataAccess.UI": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Diagram.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp.ConditionalAppearance": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp.Images": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp.Objects": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp.ReportsV2": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp.ReportsV2.Win": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp.Validation": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp.Validation.Win": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp.Win": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.ExpressApp.Xpo": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Gauges.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Images": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Office.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Pdf.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Persistent.Base": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Persistent.BaseImpl": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.PivotGrid.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Printing.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Reporting.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.RichEdit.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.RichEdit.Export": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Scheduler.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Sparkline.Core": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Utils": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Utils.UI": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.BonusSkins": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.Charts": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.Diagram": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.Grid": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.Navigation": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.PivotGrid": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.Printing": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.Reporting": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.RichEdit": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.TreeList": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Win.VerticalGrid": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          },
+          "DevExpress.Xpo": {
+            "target": "Package",
+            "version": "[19.2.5, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" ?>
+<Application Title="ReportV2Demo">
+  <Localization>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="ReportV2Demo.Module.BusinessObjects.SimpleEnum">
+        <LocalizationItem Name="One" Value="One+" />
+        <LocalizationItem Name="Two" Value="Two+" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="ReportV2Demo.Module.BusinessObjects.TitleOfCourtesy">
+        <LocalizationItem Name="Dr" Value="DrCustom" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+  </Localization>
+ </Application>
+
+

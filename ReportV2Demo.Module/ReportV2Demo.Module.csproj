@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F15837D-D1E5-44DC-92F0-4F2EBE9C3F8D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReportV2Demo.Module</RootNamespace>
+    <AssemblyName>ReportV2Demo.Module</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <LangVersion>6</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <LangVersion>6</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EasyTest\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EASYTEST</DefineConstants>
+    <LangVersion>6</LangVersion>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObjects\Contact.cs" />
+    <Compile Include="BusinessObjects\Company.cs" />
+    <Compile Include="BusinessObjects\ObjectWithSecurity.cs" />
+    <Compile Include="BusinessObjects\Position.cs" />
+    <Compile Include="BusinessObjects\SimpleObjectWithEnum.cs" />
+    <Compile Include="Module.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Module.Designer.cs">
+      <DependentUpon>Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredefinedEditableReports\OrdinalReportLayout.cs" />
+    <Compile Include="PredefinedEditableReports\ReportWithSecurity.cs" />
+    <Compile Include="PredefinedEditableReports\ReportWithSubReportDifferentEnumsLayout.cs" />
+    <Compile Include="PredefinedEditableReports\ReportWithSubReportLayout.cs" />
+    <Compile Include="PredefinedEditableReports\ReportWithViewDataSourceLayout.cs" />
+    <Compile Include="PredefinedEditableReports\SimpleSubReportLayout.cs" />
+    <Compile Include="PredefinedEditableReports\SubreportCompanyLayout.cs" />
+    <Compile Include="PredefinedReadonlyReports\ContactReportWithSubreportMappedToViewDataSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PredefinedReadonlyReports\ContactReportWithSubreportMappedToViewDataSource.designer.cs">
+      <DependentUpon>ContactReportWithSubreportMappedToViewDataSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredefinedReadonlyReports\PhoneNumberReportSubreportMappedToViewDataSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PredefinedReadonlyReports\PhoneNumberReportSubreportMappedToViewDataSource.designer.cs">
+      <DependentUpon>PhoneNumberReportSubreportMappedToViewDataSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DatabaseUpdate\Updater.cs" />
+    <Compile Include="ReportParameters\DemoParameters.cs" />
+    <Compile Include="PredefinedReadonlyReports\XtraReportOrdinary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PredefinedReadonlyReports\XtraReportOrdinary.Designer.cs">
+      <DependentUpon>XtraReportOrdinary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredefinedReadonlyReports\XtraReportView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PredefinedReadonlyReports\XtraReportView.Designer.cs">
+      <DependentUpon>XtraReportView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+    <EmbeddedResource Include="Module.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredefinedReadonlyReports\ContactReportWithSubreportMappedToViewDataSource.resx">
+      <DependentUpon>ContactReportWithSubreportMappedToViewDataSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredefinedReadonlyReports\PhoneNumberReportSubreportMappedToViewDataSource.resx">
+      <DependentUpon>PhoneNumberReportSubreportMappedToViewDataSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredefinedReadonlyReports\XtraReportOrdinary.resx">
+      <DependentUpon>XtraReportOrdinary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredefinedReadonlyReports\XtraReportView.resx">
+      <DependentUpon>XtraReportView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Data">
+      <Version>19.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.ExpressApp">
+      <Version>19.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance">
+      <Version>19.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.ExpressApp.ReportsV2">
+      <Version>19.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo">
+      <Version>19.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.Images">
+      <Version>19.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.Pdf.Core">
+      <Version>19.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.Persistent.BaseImpl">
+      <Version>19.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.Printing.Core">
+      <Version>19.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="DevExpress.Utils">
+      <Version>19.2.5</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
