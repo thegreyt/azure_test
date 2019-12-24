@@ -15,6 +15,10 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
+
+- powershell: |
+  env:
+    DX_NUGET_PUB: $(mySecret)
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
