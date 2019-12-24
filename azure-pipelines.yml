@@ -21,14 +21,18 @@ steps:
     Write-Host "This works: $(dxfeed)"
     # Using the mapped env var:
     Write-Host "This works: $env:DX_NUGET_PUB"    # Recommended
+    Write-Host "##vso[task.setvariable variable=DX_NUGET_PUB;]$(dxfeed)"
   env:
     DX_NUGET_PUB: $(dxfeed)
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
   inputs:
+    command: 'restore'
     restoreSolution: '$(solution)'
-
+    feedsToUse: 'config'
+    nugetConfigPath: 'NuGet.config'
+    
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
