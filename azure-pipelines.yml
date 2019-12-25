@@ -18,17 +18,28 @@ steps:
 
 - powershell: |
     Write-Host "##vso[task.setvariable variable=DX_NUGET_PUB;]$(dxfeed)"
+
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
   inputs:
+    restoreSolution: '$(solution)'
+
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: NuGetCommand@2
+  inputs:
     command: 'custom'
-    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory easyTest -configfile NuGet.config -ExcludeVersion'
+    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory EasyTest -configfile NuGet.config -ExcludeVersion'
+   
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
     script: |
-      New-Item -ItemType directory -Path "easytest\Bin\"
-      Get-ChildItem -Path "easytest\*" -Include *.dll,*.exe -Recurse | Copy-Item -Destination "easytest\Bin\"
-      
-      Dir -Recurse "easytest\Bin\" | Get-Childitem
+      New-Item -ItemType directory -Path "EasyTest\Bin\"
+      Get-ChildItem -Path "EasyTest\*" -Include *.dll,*.exe -Recurse | Copy-Item -Destination "EasyTest\Bin\"
+
