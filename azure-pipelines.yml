@@ -23,9 +23,13 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'custom'
-    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory easyTest -configfile NuGet.config -DependencyVersion Ignore -ExcludeVersion'
+    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory easyTest -configfile NuGet.config -ExcludeVersion'
 
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
-    script: 'Dir -Recurse easytest\ | Get-Childitem'
+    script: |
+       Get-ChildItem -Path "easytest\*" -Include *.dll,*.exe -Recurse | Copy-Item -Destination easytest\Bin
+       Dir -Recurse easytest\Bin | Get-Childitem
+
+
