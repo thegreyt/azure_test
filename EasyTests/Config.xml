@@ -12,8 +12,8 @@
 	</TestDatabases>
 
 	<Aliases>
-		<Alias Name="WinAdapterAssemblyName" Value="DevExpress.ExpressApp.EasyTest.WinAdapter.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-		<Alias Name="WebAdapterAssemblyName" Value="DevExpress.ExpressApp.EasyTest.WebAdapter.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+		<Alias Name="WinAdapterAssemblyName" Value="[ConfigPath]\..\EasyTest\Bin\DevExpress.ExpressApp.EasyTest.WinAdapter.v19.2.dll" />
+		<Alias Name="WebAdapterAssemblyName" Value="[ConfigPath]\..\EasyTest\Bin\DevExpress.ExpressApp.EasyTest.WebAdapter.v19.2.dll" />
 		<Alias Name="WinAppBin" Value="[ConfigPath]\..\ReportV2Demo.Win\Bin\Debug" />
 		<Alias Name="WebAppBin" Value="[ConfigPath]\..\ReportV2Demo.Web" />
 	</Aliases>
