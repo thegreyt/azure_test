@@ -1,0 +1,9 @@
+Contacts with SubReport
+Demo Company           	DefaultCity
+First Name             	John
+Last Name              	Nilsen
+Email                  	john_nilsen@md.com
+First Name             	Mary
+Last Name              	Tellitson
+Email                  	mary_tellitson@md.com
+1/1                    	Page 1 of 1
