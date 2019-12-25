@@ -28,6 +28,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      Get-ChildItem -Path "easytest\*" -Include *.dll,*.exe -Recurse | Copy-Item -Destination easytest\Bin
+      New-Item -ItemType directory -Path "easytest\Bin\"
+      Get-ChildItem -Path "easytest\*" -Include *.dll,*.exe -Recurse | Copy-Item -Destination "easytest\Bin\"
       
-      Dir -Recurse easytest\Bin | Get-Childitem
+      Dir -Recurse "easytest\Bin\" | Get-Childitem
