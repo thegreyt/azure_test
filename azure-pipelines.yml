@@ -23,7 +23,7 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'custom'
-    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory easyTest -configfile NuGet.config'
+    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory easyTest -configfile NuGet.config -IgnoreDependencies -ExcludeVersion'
 
 - task: PowerShell@2
   inputs:
