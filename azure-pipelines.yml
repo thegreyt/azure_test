@@ -43,3 +43,26 @@ steps:
       New-Item -ItemType directory -Path "EasyTest\Bin\"
       Get-ChildItem -Path "EasyTest\*" -Include *.dll,*.exe -Recurse | Copy-Item -Destination "EasyTest\Bin\"
 
+- task: PowerShell@2
+  displayName: EasyTest
+  inputs:
+    targetType: 'inline'
+    script: |     
+      $easyTestPath=".\EasyTests"
+
+      sqllocaldb start MSSQLLocalDB
+      
+      $testExecutorItem = Get-ChildItem -Path "EasyTest\Bin\" -Include TestExecutor.v*.exe -File -Recurse
+      $testExecutorPath = "EasyTest\Bin\" + $testExecutorItem[0].Name
+      
+      & $testExecutorPath $easyTestPath
+      
+      $easyTestLogPath = $easyTestPath + "\TestsLog.xml"
+      if(Select-String -Pattern 'Result="Failed"', 'Result="Warning"' -Path $easyTestLogPath) { exit 1 }
+
+- task: PublishPipelineArtifact@1
+  condition: succeededOrFailed()
+  inputs:
+    targetPath: '.\EasyTests\'
+    artifact: 'TestsResultFiles'
+    publishLocation: 'pipeline'
