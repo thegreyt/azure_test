@@ -37,7 +37,12 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'custom'
-    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory EasyTest -configfile NuGet.config -ExcludeVersion'
+    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory EasyTest -configfile NuGet.config'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'custom'
+    arguments: 'install Unofficial.Microsoft.mshtml -OutputDirectory EasyTest'
    
 - task: PowerShell@2
   inputs:
