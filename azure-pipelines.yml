@@ -37,14 +37,19 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'custom'
-    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory EasyTest -configfile NuGet.config -ExcludeVersion'
+    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory EasyTest -configfile NuGet.config'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'custom'
+    arguments: 'install Unofficial.Microsoft.mshtml -OutputDirectory EasyTest'
    
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
     script: |
       New-Item -ItemType directory -Path "EasyTest\Bin\"
-      Get-ChildItem -Path "EasyTest\*" -Include *.dll,*.exe -Recurse | Copy-Item -Destination "EasyTest\Bin\"
+      Get-ChildItem -Path "*" -Include *.dll,*.exe  -Recurse | Where {$_.FullName -notlike "*\netstandard*\*"} | Copy-Item -Destination "EasyTest\Bin\"
 
 - task: PowerShell@2
   displayName: EasyTest
