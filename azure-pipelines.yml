@@ -43,26 +43,15 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      New-Item -ItemType directory -Path "EasyTest\Bin\"
-      Get-ChildItem -Path "*" -Include *.dll,*.exe  -Recurse | Where {$_.FullName -notlike "*\netstandard*\*"} | Copy-Item -Destination "EasyTest\Bin\"
-      Copy-Item "C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\Microsoft.mshtml.dll" -Destination "EasyTest\Bin\"
-
-- task: PowerShell@2
-  displayName: EasyTest
-  inputs:
-    targetType: 'inline'
-    script: |     
       $easyTestPath=".\EasyTests"
-
       sqllocaldb start MSSQLLocalDB
-      
-      $testExecutorItem = Get-ChildItem -Path "EasyTest\Bin\" -Include TestExecutor.v*.exe -File -Recurse
-      $testExecutorPath = "EasyTest\Bin\" + $testExecutorItem[0].Name
-      
-      & $testExecutorPath $easyTestPath
-      
-      $easyTestLogPath = $easyTestPath + "\TestsLog.xml"
-      if(Select-String -Pattern 'Result="Failed"', 'Result="Warning"' -Path $easyTestLogPath) { exit 1 }
+      Nuget install DevExpress.EasyTest.TestExecutor -OutputDirectory easyTest -configfile NuGet.config      
+      New-Item -ItemType directory -Path "easytest\Bin\"
+      Copy-Item "C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\Microsoft.mshtml.dll" -Destination "EasyTest\Bin\"
+      Get-ChildItem -Path "easytest\*" -Include *.dll,*.exe -Recurse | Where {$_.FullName -notlike "*\netstandard*\*"} | Copy-Item -Destination "EasyTest\Bin\"
+      .\easytest\Bin\TestExecutor.v19.2.exe $easyTestPath
+      Get-Content -Path $easyTestPath\TestsLog.xml
+      if(Select-String -Pattern 'Result="Failed"', 'Result="Warning"' -Path $easyTestPath\TestsLog.xml) { exit 1 }
 
 - task: PublishPipelineArtifact@1
   condition: succeededOrFailed()
