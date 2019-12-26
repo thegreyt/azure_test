@@ -137,34 +137,34 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DevExpress.Data">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
     <PackageReference Include="DevExpress.ExpressApp">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
     <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
     <PackageReference Include="DevExpress.ExpressApp.ReportsV2">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
     <PackageReference Include="DevExpress.ExpressApp.Security.Xpo">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
     <PackageReference Include="DevExpress.Images">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
     <PackageReference Include="DevExpress.Pdf.Core">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
     <PackageReference Include="DevExpress.Persistent.BaseImpl">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
     <PackageReference Include="DevExpress.Printing.Core">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
     <PackageReference Include="DevExpress.Utils">
-      <Version>19.2.5</Version>
+      <Version>19.2.4</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
