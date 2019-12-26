@@ -17,4 +17,4 @@ variables:
 steps:
 
 - powershell: |
-    gci -path "C:\" -recurse -filter "mshtml.dll"
+    gci -path "C:\" -recurse -filter "Microsoft.mshtml.dll"
