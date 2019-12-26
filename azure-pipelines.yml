@@ -17,7 +17,56 @@ variables:
 steps:
 
 - powershell: |
-    gci -path "C:\" -recurse -filter "Microsoft.mshtml.dll"
+    Write-Host "##vso[task.setvariable variable=DX_NUGET_PUB;]$(dxfeed)"
 
-- powershell: |
-    gci -path "D:\" -recurse -filter "Microsoft.mshtml.dll"    
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '$(solution)'
+    feedsToUse: 'config'
+    nugetConfigPath: 'NuGet.config'
+
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'custom'
+    arguments: 'install DevExpress.EasyTest.TestExecutor -OutputDirectory EasyTest -configfile NuGet.config'
+   
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      New-Item -ItemType directory -Path "EasyTest\Bin\"
+      Get-ChildItem -Path "*" -Include *.dll,*.exe  -Recurse | Where {$_.FullName -notlike "*\netstandard*\*"} | Copy-Item -Destination "EasyTest\Bin\"
+      Copy-Item "C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\Microsoft.mshtml.dll" -Destination "EasyTest\Bin\"
+
+- task: PowerShell@2
+  displayName: EasyTest
+  inputs:
+    targetType: 'inline'
+    script: |     
+      $easyTestPath=".\EasyTests"
+
+      sqllocaldb start MSSQLLocalDB
+      
+      $testExecutorItem = Get-ChildItem -Path "EasyTest\Bin\" -Include TestExecutor.v*.exe -File -Recurse
+      $testExecutorPath = "EasyTest\Bin\" + $testExecutorItem[0].Name
+      
+      & $testExecutorPath $easyTestPath
+      
+      $easyTestLogPath = $easyTestPath + "\TestsLog.xml"
+      if(Select-String -Pattern 'Result="Failed"', 'Result="Warning"' -Path $easyTestLogPath) { exit 1 }
+
+- task: PublishPipelineArtifact@1
+  condition: succeededOrFailed()
+  inputs:
+    targetPath: '.\EasyTests\'
+    artifact: 'TestsResultFiles'
+    publishLocation: 'pipeline'
